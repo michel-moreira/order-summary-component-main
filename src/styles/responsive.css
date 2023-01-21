@@ -2,9 +2,16 @@
   body {
     background: hsl(227, 100%, 94%) url(../images/pattern-background-mobile.svg)
       no-repeat;
+    background-size: contain;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
   }
   .container {
-    margin: 8rem 10rem;
+    margin: 4rem 15rem;
     padding-bottom: 3rem;
     max-width: 350px;
   }

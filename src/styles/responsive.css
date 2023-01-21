@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  body {
+    background: hsl(227, 100%, 94%) url(../images/pattern-background-mobile.svg)
+      no-repeat;
+  }
+  .container {
+    margin: 8rem 10rem;
+    padding-bottom: 3rem;
+    max-width: 350px;
+  }
+  .container .description {
+    padding: 0 3.5rem;
+  }
+  .container .plan-choice {
+    max-width: 300px;
+    padding: 2rem 1rem;
+  }
+  .container .plan-choice .icon-music::before {
+    margin-left: 10px;
+  }
+  .container .plan-choice .plan-price {
+    font-size: 16px;
+    margin: 0 50px 0 10px;
+  }
+  .container .plan-choice .change {
+    margin-right: 30px;
+  }
+  .container .btn-order {
+    padding: 1.4rem 6rem;
+    margin: 0 1rem 2.8rem;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+:root {
+  --btn-hover: hsl(225, 92%, 75%);
+  --btn: hsl(245, 75%, 52%);
+  --bg-card: hsl(225, 100%, 100%);
+  --plan-price: hsl(225, 100%, 98%);
+  --body-text: hsl(224, 23%, 55%);
+  --heading: hsl(223, 47%, 23%);
+  --paragraph: 16px;
+  --font-family: "Red Hat Display", sans-serif;
+}

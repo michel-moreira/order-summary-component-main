@@ -1,0 +1,144 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  background: hsl(227, 100%, 94%) url(../images/pattern-background-desktop.svg)
+    no-repeat;
+  background-size: contain;
+}
+
+main {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 4rem;
+  padding-bottom: 3rem;
+  max-width: 450px;
+  font: 500 16px / 1.5 var(--font-family);
+  color: var(--body-text);
+  background-color: var(--bg-card);
+  border-radius: 2rem;
+  box-shadow: 4px 15px 16px hsl(227, 60%, 86%);
+}
+
+.container .plan-choice,
+.container .btn-order {
+  border-radius: 12px;
+}
+
+/* ------------------------------ */
+.container .image-card {
+  max-width: 100%;
+  margin-bottom: 4.5rem;
+  border-radius: 2rem 2rem 0 0;
+}
+
+/* ------------------------------ */
+.container .heading {
+  font: 900 28px var(--font-family);
+  color: var(--heading);
+  margin-bottom: 1.6rem;
+}
+
+/* ------------------------------ */
+.container .description {
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+  color: var(--body-text);
+  line-height: 1.6;
+}
+
+/* ------------------------------ */
+.container .plan-choice {
+  display: flex;
+  align-items: center;
+  background-color: var(--plan-price);
+  max-width: 400px;
+  margin: 0 2rem 28px;
+  padding: 2.6rem 1rem;
+  transition: 0.4s ease-in-out;
+}
+/* ............................... */
+.container .plan-choice .icon-music::before {
+  content: url(../images/icon-music.svg);
+  margin-left: 36px;
+}
+/* ............................... */
+.container .plan-choice .plan-price {
+  margin: 0 90px 0 18px;
+}
+/* ............................... */
+.container .plan-choice .plan-price h3 {
+  color: var(--heading);
+  font: 900 16px var(--font-family);
+}
+/* ............................... */
+.container .plan-choice .change {
+  text-decoration: underline;
+  margin-right: 40px;
+  font: 900 14px var(--font-family);
+  transition: 0.4s ease-in-out;
+}
+.container .plan-choice .change:hover {
+  color: var(--btn-hover);
+  text-decoration: none;
+}
+
+/* ------------------------------ */
+.container .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 2rem;
+}
+
+/* ............................... */
+.container .btn-order {
+  padding: 1.4rem 10rem;
+  margin: 0 2rem 2.8rem;
+  font: 700 16px var(--font-family);
+  background-color: var(--btn);
+  box-shadow: 4px 15px 16px hsl(227, 60%, 86%);
+  color: var(--bg-card);
+  transition: 0.4s ease-in-out;
+}
+.container .btn-order:hover {
+  background-color: var(--btn-hover);
+}
+
+/* ............................... */
+.container .cancel-order {
+  font: 700 16px var(--font-family);
+  margin-bottom: 1.5rem;
+  color: var(--body-text);
+}
+.container .cancel-order:hover {
+  color: var(--heading);
+}
+
+/* ######################## */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution p {
+  font-family: var(--font-family);
+}
